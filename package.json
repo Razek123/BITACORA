@@ -1,0 +1,27 @@
+{
+  "name": "bitacora-gastos",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bitácora · Control de Gastos y Salidas de material: LGHT & Nuvixa",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "deploy": "vite build && firebase deploy"
+  },
+  "dependencies": {
+    "firebase": "^11.0.2",
+    "lucide-react": "^0.468.0",
+    "pdf-lib": "^1.17.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.15.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "vite": "^6.0.3"
+  }
+}
